@@ -1,0 +1,725 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="Personendaten" author="" >
+<svs>
+  <sv name="_others_"/>
+  <sv name="_unknown_"/>
+  <sv name="_undefined_"/>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="_others_">
+</qsym>
+<qsym name="_unknown_">
+<csym name="_unknown_" sim="0.0"/>
+</qsym>
+<qsym name="_undefined_">
+<csym name="_undefined_" sim="0.0"/>
+</qsym>
+</fct>
+</svs>
+<model>
+  <concept name="Personen">
+    <desc name="Kinder" type="Symbol" mult="false" >
+      <symbol value="3" />
+      <symbol value="2" />
+      <symbol value="10" />
+      <symbol value="1" />
+      <symbol value="0" />
+      <symbol value="7" />
+      <symbol value="6" />
+      <symbol value="5" />
+      <symbol value="4" />
+      <symbol value="9" />
+      <symbol value="8" />
+<fct name="Boolean" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="3">
+<csym name="2" sim="0.9"/>
+<csym name="10" sim="0.3"/>
+<csym name="1" sim="0.8"/>
+<csym name="7" sim="0.6"/>
+<csym name="6" sim="0.7"/>
+<csym name="5" sim="0.8"/>
+<csym name="4" sim="0.9"/>
+<csym name="9" sim="0.4"/>
+<csym name="8" sim="0.5"/>
+</qsym>
+<qsym name="2">
+<csym name="3" sim="0.9"/>
+<csym name="10" sim="0.2"/>
+<csym name="1" sim="0.9"/>
+<csym name="7" sim="0.5"/>
+<csym name="6" sim="0.6"/>
+<csym name="5" sim="0.7"/>
+<csym name="4" sim="0.8"/>
+<csym name="9" sim="0.3"/>
+<csym name="8" sim="0.4"/>
+</qsym>
+<qsym name="10">
+<csym name="3" sim="0.3"/>
+<csym name="2" sim="0.2"/>
+<csym name="1" sim="0.1"/>
+<csym name="7" sim="0.7"/>
+<csym name="6" sim="0.6"/>
+<csym name="5" sim="0.5"/>
+<csym name="4" sim="0.4"/>
+<csym name="9" sim="0.9"/>
+<csym name="8" sim="0.8"/>
+</qsym>
+<qsym name="1">
+<csym name="3" sim="0.8"/>
+<csym name="2" sim="0.9"/>
+<csym name="10" sim="0.1"/>
+<csym name="7" sim="0.4"/>
+<csym name="6" sim="0.5"/>
+<csym name="5" sim="0.6"/>
+<csym name="4" sim="0.7"/>
+<csym name="9" sim="0.2"/>
+<csym name="8" sim="0.3"/>
+</qsym>
+<qsym name="0">
+</qsym>
+<qsym name="7">
+<csym name="3" sim="0.6"/>
+<csym name="2" sim="0.5"/>
+<csym name="10" sim="0.7"/>
+<csym name="1" sim="0.4"/>
+<csym name="6" sim="0.9"/>
+<csym name="5" sim="0.8"/>
+<csym name="4" sim="0.7"/>
+<csym name="9" sim="0.8"/>
+<csym name="8" sim="0.9"/>
+</qsym>
+<qsym name="6">
+<csym name="3" sim="0.7"/>
+<csym name="2" sim="0.6"/>
+<csym name="10" sim="0.6"/>
+<csym name="1" sim="0.5"/>
+<csym name="7" sim="0.9"/>
+<csym name="5" sim="0.9"/>
+<csym name="4" sim="0.8"/>
+<csym name="9" sim="0.7"/>
+<csym name="8" sim="0.8"/>
+</qsym>
+<qsym name="5">
+<csym name="3" sim="0.8"/>
+<csym name="2" sim="0.7"/>
+<csym name="10" sim="0.5"/>
+<csym name="1" sim="0.6"/>
+<csym name="7" sim="0.8"/>
+<csym name="6" sim="0.9"/>
+<csym name="4" sim="0.9"/>
+<csym name="9" sim="0.6"/>
+<csym name="8" sim="0.7"/>
+</qsym>
+<qsym name="4">
+<csym name="3" sim="0.9"/>
+<csym name="2" sim="0.8"/>
+<csym name="10" sim="0.4"/>
+<csym name="1" sim="0.7"/>
+<csym name="7" sim="0.7"/>
+<csym name="6" sim="0.8"/>
+<csym name="5" sim="0.9"/>
+<csym name="9" sim="0.5"/>
+<csym name="8" sim="0.6"/>
+</qsym>
+<qsym name="9">
+<csym name="3" sim="0.4"/>
+<csym name="2" sim="0.3"/>
+<csym name="10" sim="0.9"/>
+<csym name="1" sim="0.2"/>
+<csym name="7" sim="0.8"/>
+<csym name="6" sim="0.7"/>
+<csym name="5" sim="0.6"/>
+<csym name="4" sim="0.5"/>
+<csym name="8" sim="0.9"/>
+</qsym>
+<qsym name="8">
+<csym name="3" sim="0.5"/>
+<csym name="2" sim="0.4"/>
+<csym name="10" sim="0.8"/>
+<csym name="1" sim="0.3"/>
+<csym name="7" sim="0.9"/>
+<csym name="6" sim="0.8"/>
+<csym name="5" sim="0.7"/>
+<csym name="4" sim="0.6"/>
+<csym name="9" sim="0.9"/>
+</qsym>
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="3">
+</qsym>
+<qsym name="2">
+</qsym>
+<qsym name="10">
+</qsym>
+<qsym name="1">
+</qsym>
+<qsym name="0">
+</qsym>
+<qsym name="7">
+</qsym>
+<qsym name="6">
+</qsym>
+<qsym name="5">
+</qsym>
+<qsym name="4">
+</qsym>
+<qsym name="9">
+</qsym>
+<qsym name="8">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Ort" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Beziehungsstatus" type="Symbol" mult="false" >
+      <symbol value="eingetr.partnerschaft" />
+      <symbol value="ledig" />
+      <symbol value="beziehung" />
+      <symbol value="geschieden" />
+      <symbol value="verheiratet" />
+<fct name="Boolean" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="eingetr.partnerschaft">
+<csym name="beziehung" sim="0.5"/>
+<csym name="geschieden" sim="0.1"/>
+<csym name="verheiratet" sim="0.75"/>
+</qsym>
+<qsym name="ledig">
+</qsym>
+<qsym name="beziehung">
+<csym name="eingetr.partnerschaft" sim="0.5"/>
+<csym name="verheiratet" sim="0.25"/>
+</qsym>
+<qsym name="geschieden">
+<csym name="eingetr.partnerschaft" sim="0.1"/>
+<csym name="verheiratet" sim="0.5"/>
+</qsym>
+<qsym name="verheiratet">
+<csym name="eingetr.partnerschaft" sim="0.75"/>
+<csym name="beziehung" sim="0.25"/>
+<csym name="geschieden" sim="0.5"/>
+</qsym>
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="eingetr.partnerschaft">
+</qsym>
+<qsym name="ledig">
+</qsym>
+<qsym name="beziehung">
+</qsym>
+<qsym name="geschieden">
+</qsym>
+<qsym name="verheiratet">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Land" type="Symbol" mult="false" >
+      <symbol value="Deutschland" />
+<fct name="Boolean" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Deutschland">
+</qsym>
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="Deutschland">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Geburtsdatum" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Hausnummer" type="Integer" min="0" max="200" mult="false" >
+      <fct name="Linear" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Geburtsjahr" type="Integer" min="1920" max="2014" mult="false" >
+      <fct name="Interval" type="AdvancedInteger" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX">
+        <point x="-94.0" y="0.0" />
+        <point x="-10.0" y="0.0" />
+        <point x="-7.0" y="0.1" />
+        <point x="-5.0" y="0.3" />
+        <point x="-2.0" y="1.0" />
+        <point x="0.0" y="1.0" />
+        <point x="2.0" y="1.0" />
+        <point x="5.0" y="0.3" />
+        <point x="7.0" y="0.1" />
+        <point x="10.0" y="0.0" />
+        <point x="94.0" y="0.0" />
+      </fct>
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Vorname" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="PolitischeEinstellung" type="Symbol" mult="false" >
+      <symbol value="rechts" />
+      <symbol value="liberal" />
+      <symbol value="Kommunist" />
+      <symbol value="gruen" />
+      <symbol value="links" />
+      <symbol value="konservativ" />
+      <symbol value="unpolitisch" />
+<fct name="Boolean" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="rechts">
+<csym name="liberal" sim="0.6"/>
+<csym name="gruen" sim="0.4"/>
+<csym name="links" sim="0.2"/>
+<csym name="konservativ" sim="0.8"/>
+</qsym>
+<qsym name="liberal">
+<csym name="rechts" sim="0.6"/>
+<csym name="Kommunist" sim="0.4"/>
+<csym name="gruen" sim="0.8"/>
+<csym name="links" sim="0.6"/>
+<csym name="konservativ" sim="0.8"/>
+</qsym>
+<qsym name="Kommunist">
+<csym name="liberal" sim="0.4"/>
+<csym name="gruen" sim="0.6"/>
+<csym name="links" sim="0.8"/>
+<csym name="konservativ" sim="0.2"/>
+</qsym>
+<qsym name="gruen">
+<csym name="rechts" sim="0.4"/>
+<csym name="liberal" sim="0.8"/>
+<csym name="Kommunist" sim="0.6"/>
+<csym name="links" sim="0.8"/>
+<csym name="konservativ" sim="0.6"/>
+</qsym>
+<qsym name="links">
+<csym name="rechts" sim="0.2"/>
+<csym name="liberal" sim="0.6"/>
+<csym name="Kommunist" sim="0.8"/>
+<csym name="gruen" sim="0.8"/>
+<csym name="konservativ" sim="0.4"/>
+</qsym>
+<qsym name="konservativ">
+<csym name="rechts" sim="0.8"/>
+<csym name="liberal" sim="0.8"/>
+<csym name="Kommunist" sim="0.2"/>
+<csym name="gruen" sim="0.6"/>
+<csym name="links" sim="0.4"/>
+</qsym>
+<qsym name="unpolitisch">
+</qsym>
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="rechts">
+</qsym>
+<qsym name="liberal">
+</qsym>
+<qsym name="Kommunist">
+</qsym>
+<qsym name="gruen">
+</qsym>
+<qsym name="links">
+</qsym>
+<qsym name="konservativ">
+</qsym>
+<qsym name="unpolitisch">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Nachname" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Musik" type="String" mult="true" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Geschlecht" type="Symbol" mult="false" >
+      <symbol value="maennlich" />
+      <symbol value="weiblich" />
+<fct name="Boolean" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="maennlich">
+</qsym>
+<qsym name="weiblich">
+</qsym>
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="maennlich">
+</qsym>
+<qsym name="weiblich">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Einkommen" type="Integer" min="0" max="10000" mult="false" >
+      <fct name="Interval" type="AdvancedInteger" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX">
+        <point x="-10000.0" y="0.0" />
+        <point x="-500.0" y="0.0" />
+        <point x="-250.0" y="0.5" />
+        <point x="0.0" y="1.0" />
+        <point x="250.0" y="0.5" />
+        <point x="500.0" y="0.0" />
+        <point x="10000.0" y="0.0" />
+      </fct>
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="TelefonVorwahl" type="Integer" min="0" max="99999" mult="false" >
+      <fct name="Interval" type="AdvancedInteger" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX">
+        <point x="-99999.0" y="0.0" />
+        <point x="-150.0" y="0.0" />
+        <point x="-100.0" y="0.2" />
+        <point x="-20.0" y="0.9" />
+        <point x="0.0" y="1.0" />
+        <point x="20.0" y="0.9" />
+        <point x="100.0" y="0.2" />
+        <point x="150.0" y="0.0" />
+        <point x="99999.0" y="0.0" />
+      </fct>
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Raucher" type="Symbol" mult="false" >
+      <symbol value="ja" />
+      <symbol value="nein" />
+<fct name="Boolean" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="ja">
+</qsym>
+<qsym name="nein">
+</qsym>
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="ja">
+</qsym>
+<qsym name="nein">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Beruf" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="EmailAdresse" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="PersonenID" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Figur" type="Symbol" mult="false" >
+      <symbol value="dick" />
+      <symbol value="duerr" />
+      <symbol value="mollig" />
+      <symbol value="normal" />
+      <symbol value="schlank" />
+<fct name="Boolean" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="dick">
+<csym name="mollig" sim="0.5"/>
+</qsym>
+<qsym name="duerr">
+<csym name="schlank" sim="0.5"/>
+</qsym>
+<qsym name="mollig">
+<csym name="dick" sim="0.5"/>
+<csym name="normal" sim="0.5"/>
+</qsym>
+<qsym name="normal">
+<csym name="mollig" sim="0.5"/>
+<csym name="schlank" sim="0.5"/>
+</qsym>
+<qsym name="schlank">
+<csym name="duerr" sim="0.5"/>
+<csym name="normal" sim="0.5"/>
+</qsym>
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="dick">
+</qsym>
+<qsym name="duerr">
+</qsym>
+<qsym name="mollig">
+</qsym>
+<qsym name="normal">
+</qsym>
+<qsym name="schlank">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Interessen" type="String" mult="true" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Religion" type="Symbol" mult="false" >
+      <symbol value="keine" />
+      <symbol value="Christ" />
+      <symbol value="Hinduist" />
+      <symbol value="Jude" />
+      <symbol value="Moslem" />
+      <symbol value="Budhist" />
+<fct name="Boolean" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="keine">
+</qsym>
+<qsym name="Christ">
+<csym name="Jude" sim="0.5"/>
+<csym name="Moslem" sim="0.5"/>
+</qsym>
+<qsym name="Hinduist">
+<csym name="Budhist" sim="0.5"/>
+</qsym>
+<qsym name="Jude">
+<csym name="Christ" sim="0.5"/>
+<csym name="Moslem" sim="0.5"/>
+</qsym>
+<qsym name="Moslem">
+<csym name="Christ" sim="0.5"/>
+<csym name="Jude" sim="0.5"/>
+</qsym>
+<qsym name="Budhist">
+<csym name="Hinduist" sim="0.5"/>
+</qsym>
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="keine">
+</qsym>
+<qsym name="Christ">
+</qsym>
+<qsym name="Hinduist">
+</qsym>
+<qsym name="Jude">
+</qsym>
+<qsym name="Moslem">
+</qsym>
+<qsym name="Budhist">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Telefonnummer" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="Alkohol" type="Symbol" mult="false" >
+      <symbol value="ja" />
+      <symbol value="nein" />
+<fct name="Boolean" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="ja">
+</qsym>
+<qsym name="nein">
+</qsym>
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="ja">
+</qsym>
+<qsym name="nein">
+</qsym>
+</fct>
+    </desc>
+    <desc name="AndereDrogen" type="Symbol" mult="false" >
+      <symbol value="ja" />
+      <symbol value="nein" />
+<fct name="Boolean" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="ja">
+</qsym>
+<qsym name="nein">
+</qsym>
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="ja">
+</qsym>
+<qsym name="nein">
+</qsym>
+</fct>
+    </desc>
+    <desc name="Strasse" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="PLZ" type="Integer" min="0" max="99998" mult="false" >
+      <fct name="Interval" type="AdvancedInteger" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX">
+        <point x="-99998.0" y="0.0" />
+        <point x="-99988.0" y="0.0" />
+        <point x="-500.0" y="0.0" />
+        <point x="-200.0" y="0.5" />
+        <point x="-100.0" y="1.0" />
+        <point x="0.0" y="1.0" />
+        <point x="100.0" y="1.0" />
+        <point x="200.0" y="0.5" />
+        <point x="500.0" y="0.0" />
+        <point x="99988.0" y="0.0" />
+        <point x="99998.0" y="0.0" />
+      </fct>
+      <fct name="default function" type="Integer" ltype="CONSTANT" lparam="1.0" rtype="CONSTANT" rparam="1.0" mode="DIFFERENCE" symm="true" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <desc name="SexuelleOrientierung" type="Symbol" mult="false" >
+      <symbol value="heterosexuell" />
+      <symbol value="bisexuell" />
+      <symbol value="homosexuell" />
+      <symbol value="asexuell" />
+<fct name="Boolean" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="heterosexuell">
+<csym name="bisexuell" sim="0.5"/>
+<csym name="homosexuell" sim="0.25"/>
+</qsym>
+<qsym name="bisexuell">
+<csym name="heterosexuell" sim="0.5"/>
+</qsym>
+<qsym name="homosexuell">
+<csym name="heterosexuell" sim="0.25"/>
+</qsym>
+<qsym name="asexuell">
+</qsym>
+</fct>
+<fct name="default function" type="Symbol" mt="PARTNER_QUERY" r="REUSE" t="MAX" symm="true">
+<qsym name="heterosexuell">
+</qsym>
+<qsym name="bisexuell">
+</qsym>
+<qsym name="homosexuell">
+</qsym>
+<qsym name="asexuell">
+</qsym>
+</fct>
+    </desc>
+    <desc name="EmailProvider" type="String" mult="false" >
+      <fct name="default function" type="String" symm="true" config="EQUALITY" n="3" mt="PARTNER_QUERY" r="REUSE" t="MAX" />
+    </desc>
+    <amalgam name="Wohnort" type="EUCLIDEAN" active="false" >
+      <entry name="Kinder" active="false" fct="default function" weight="0.0"/>
+      <entry name="Beziehungsstatus" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="Ort" active="true" fct="default function" weight="5.0"/>
+      <entry name="Land" active="true" fct="Boolean" weight="5.0"/>
+      <entry name="Geburtsdatum" active="false" fct="default function" weight="0.0"/>
+      <entry name="Hausnummer" active="false" fct="Linear" weight="0.0"/>
+      <entry name="Geburtsjahr" active="false" fct="Interval" weight="0.0"/>
+      <entry name="Vorname" active="false" fct="default function" weight="0.0"/>
+      <entry name="PolitischeEinstellung" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="Musik" active="false" fct="default function" weight="0.0"/>
+      <entry name="Nachname" active="false" fct="default function" weight="0.0"/>
+      <entry name="Einkommen" active="false" fct="Interval" weight="0.0"/>
+      <entry name="Geschlecht" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="TelefonVorwahl" active="true" fct="Interval" weight="5.0"/>
+      <entry name="Raucher" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="Beruf" active="false" fct="default function" weight="0.0"/>
+      <entry name="EmailAdresse" active="false" fct="default function" weight="0.0"/>
+      <entry name="Figur" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="PersonenID" active="false" fct="default function" weight="0.0"/>
+      <entry name="Interessen" active="false" fct="default function" weight="0.0"/>
+      <entry name="Religion" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="Telefonnummer" active="true" fct="default function" weight="2.5"/>
+      <entry name="Alkohol" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="AndereDrogen" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="Strasse" active="true" fct="default function" weight="2.5"/>
+      <entry name="PLZ" active="true" fct="Interval" weight="5.0"/>
+      <entry name="SexuelleOrientierung" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="EmailProvider" active="true" fct="default function" weight="1.0"/>
+    </amalgam>
+    <amalgam name="Gesundheit" type="EUCLIDEAN" active="false" >
+      <entry name="Kinder" active="true" fct="default function" weight="3.0"/>
+      <entry name="Beziehungsstatus" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="Ort" active="false" fct="default function" weight="0.0"/>
+      <entry name="Land" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="Geburtsdatum" active="false" fct="default function" weight="0.0"/>
+      <entry name="Hausnummer" active="false" fct="Linear" weight="0.0"/>
+      <entry name="Geburtsjahr" active="true" fct="Interval" weight="10.0"/>
+      <entry name="Vorname" active="false" fct="default function" weight="0.0"/>
+      <entry name="PolitischeEinstellung" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="Musik" active="false" fct="default function" weight="0.0"/>
+      <entry name="Nachname" active="false" fct="default function" weight="0.0"/>
+      <entry name="Einkommen" active="false" fct="Interval" weight="0.0"/>
+      <entry name="Geschlecht" active="true" fct="Boolean" weight="3.0"/>
+      <entry name="TelefonVorwahl" active="false" fct="Interval" weight="0.0"/>
+      <entry name="Raucher" active="true" fct="Boolean" weight="15.0"/>
+      <entry name="Beruf" active="false" fct="default function" weight="0.0"/>
+      <entry name="EmailAdresse" active="false" fct="default function" weight="0.0"/>
+      <entry name="Figur" active="true" fct="Boolean" weight="6.0"/>
+      <entry name="PersonenID" active="false" fct="default function" weight="0.0"/>
+      <entry name="Interessen" active="false" fct="default function" weight="0.0"/>
+      <entry name="Religion" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="Telefonnummer" active="false" fct="default function" weight="0.0"/>
+      <entry name="Alkohol" active="true" fct="Boolean" weight="10.0"/>
+      <entry name="AndereDrogen" active="true" fct="Boolean" weight="10.0"/>
+      <entry name="Strasse" active="false" fct="default function" weight="0.0"/>
+      <entry name="PLZ" active="false" fct="Interval" weight="0.0"/>
+      <entry name="SexuelleOrientierung" active="true" fct="Boolean" weight="3.0"/>
+      <entry name="EmailProvider" active="false" fct="default function" weight="0.0"/>
+    </amalgam>
+    <amalgam name="Person" type="WEIGHTED_SUM" active="true" >
+      <entry name="Kinder" active="true" fct="default function" weight="1.0"/>
+      <entry name="Beziehungsstatus" active="true" fct="Boolean" weight="1.0"/>
+      <entry name="Ort" active="true" fct="default function" weight="1.0"/>
+      <entry name="Land" active="true" fct="Boolean" weight="1.0"/>
+      <entry name="Geburtsdatum" active="true" fct="default function" weight="1.0"/>
+      <entry name="Hausnummer" active="true" fct="Linear" weight="1.0"/>
+      <entry name="Geburtsjahr" active="true" fct="Interval" weight="1.0"/>
+      <entry name="Vorname" active="true" fct="default function" weight="1.0"/>
+      <entry name="PolitischeEinstellung" active="true" fct="Boolean" weight="1.0"/>
+      <entry name="Musik" active="true" fct="default function" weight="1.0"/>
+      <entry name="Nachname" active="true" fct="default function" weight="1.0"/>
+      <entry name="Einkommen" active="true" fct="Interval" weight="1.0"/>
+      <entry name="Geschlecht" active="true" fct="Boolean" weight="1.0"/>
+      <entry name="TelefonVorwahl" active="true" fct="Interval" weight="1.0"/>
+      <entry name="Raucher" active="true" fct="Boolean" weight="1.0"/>
+      <entry name="Beruf" active="true" fct="default function" weight="1.0"/>
+      <entry name="EmailAdresse" active="true" fct="default function" weight="1.0"/>
+      <entry name="Figur" active="true" fct="Boolean" weight="1.0"/>
+      <entry name="PersonenID" active="true" fct="default function" weight="1.0"/>
+      <entry name="Interessen" active="true" fct="default function" weight="1.0"/>
+      <entry name="Religion" active="true" fct="Boolean" weight="1.0"/>
+      <entry name="Telefonnummer" active="true" fct="default function" weight="1.0"/>
+      <entry name="Alkohol" active="true" fct="Boolean" weight="1.0"/>
+      <entry name="AndereDrogen" active="true" fct="Boolean" weight="1.0"/>
+      <entry name="Strasse" active="true" fct="default function" weight="1.0"/>
+      <entry name="PLZ" active="true" fct="Interval" weight="1.0"/>
+      <entry name="SexuelleOrientierung" active="true" fct="Boolean" weight="1.0"/>
+      <entry name="EmailProvider" active="true" fct="default function" weight="1.0"/>
+    </amalgam>
+    <amalgam name="Gesellschaftlich" type="MAXIMUM" active="false" >
+      <entry name="Kinder" active="true" fct="default function" weight="1.0"/>
+      <entry name="Beziehungsstatus" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="Ort" active="false" fct="default function" weight="0.0"/>
+      <entry name="Land" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="Geburtsdatum" active="false" fct="default function" weight="0.0"/>
+      <entry name="Hausnummer" active="false" fct="Linear" weight="0.0"/>
+      <entry name="Geburtsjahr" active="false" fct="Interval" weight="0.0"/>
+      <entry name="Vorname" active="false" fct="default function" weight="0.0"/>
+      <entry name="PolitischeEinstellung" active="true" fct="Boolean" weight="5.0"/>
+      <entry name="Musik" active="true" fct="default function" weight="1.0"/>
+      <entry name="Nachname" active="false" fct="default function" weight="0.0"/>
+      <entry name="Einkommen" active="false" fct="Interval" weight="0.0"/>
+      <entry name="Geschlecht" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="TelefonVorwahl" active="false" fct="Interval" weight="0.0"/>
+      <entry name="Raucher" active="true" fct="Boolean" weight="1.0"/>
+      <entry name="Beruf" active="true" fct="default function" weight="5.0"/>
+      <entry name="EmailAdresse" active="false" fct="default function" weight="0.0"/>
+      <entry name="Figur" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="PersonenID" active="false" fct="default function" weight="0.0"/>
+      <entry name="Interessen" active="true" fct="default function" weight="1.0"/>
+      <entry name="Religion" active="true" fct="Boolean" weight="3.0"/>
+      <entry name="Telefonnummer" active="false" fct="default function" weight="0.0"/>
+      <entry name="Alkohol" active="true" fct="Boolean" weight="2.0"/>
+      <entry name="AndereDrogen" active="true" fct="Boolean" weight="2.0"/>
+      <entry name="Strasse" active="false" fct="default function" weight="0.0"/>
+      <entry name="PLZ" active="false" fct="Interval" weight="0.0"/>
+      <entry name="SexuelleOrientierung" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="EmailProvider" active="false" fct="default function" weight="0.0"/>
+    </amalgam>
+    <amalgam name="Finanziell" type="EUCLIDEAN" active="false" >
+      <entry name="Kinder" active="true" fct="default function" weight="1.0"/>
+      <entry name="Beziehungsstatus" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="Ort" active="false" fct="default function" weight="0.0"/>
+      <entry name="Land" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="Geburtsdatum" active="false" fct="default function" weight="0.0"/>
+      <entry name="Hausnummer" active="false" fct="Linear" weight="0.0"/>
+      <entry name="Geburtsjahr" active="true" fct="Interval" weight="3.0"/>
+      <entry name="Vorname" active="false" fct="default function" weight="0.0"/>
+      <entry name="PolitischeEinstellung" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="Musik" active="false" fct="default function" weight="0.0"/>
+      <entry name="Nachname" active="false" fct="default function" weight="0.0"/>
+      <entry name="Einkommen" active="true" fct="Interval" weight="5.0"/>
+      <entry name="Geschlecht" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="TelefonVorwahl" active="false" fct="Interval" weight="0.0"/>
+      <entry name="Raucher" active="true" fct="Boolean" weight="1.0"/>
+      <entry name="Beruf" active="false" fct="default function" weight="0.0"/>
+      <entry name="EmailAdresse" active="false" fct="default function" weight="0.0"/>
+      <entry name="Figur" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="PersonenID" active="false" fct="default function" weight="0.0"/>
+      <entry name="Interessen" active="false" fct="default function" weight="0.0"/>
+      <entry name="Religion" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="Telefonnummer" active="false" fct="default function" weight="0.0"/>
+      <entry name="Alkohol" active="true" fct="Boolean" weight="1.0"/>
+      <entry name="AndereDrogen" active="true" fct="Boolean" weight="1.0"/>
+      <entry name="Strasse" active="false" fct="default function" weight="0.0"/>
+      <entry name="PLZ" active="false" fct="Interval" weight="0.0"/>
+      <entry name="SexuelleOrientierung" active="false" fct="Boolean" weight="0.0"/>
+      <entry name="EmailProvider" active="false" fct="default function" weight="0.0"/>
+    </amalgam>
+  </concept>
+</model>
+<hierarchy>
+  <fct name="default function" type="Taxonomy" mt="PARTNER_QUERY" r="REUSE" t="MAX" qconfig="INNER_NODES_ANY" cconfig="INNER_NODES_ANY" top="inheritanceDesc" sim="0.0" symm="true" >
+    <node name="Personen" sim="1.0" parent="inheritanceDesc" />
+  </fct>
+</hierarchy>
+<cases no="11110" cb="Personen"/>
+</Project>

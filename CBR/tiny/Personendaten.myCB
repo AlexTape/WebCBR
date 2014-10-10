@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="Personendaten" author="" >
+<instances name="Personen">
+  <instance id="Personen0" >
+    <att name="Figur" value="duerr" />
+    <att name="SexuelleOrientierung" value="heterosexuell" />
+    <att name="Geburtsjahr" value="1953" />
+    <att name="Nachname" value="Widmann" />
+    <att name="Hausnummer" value="89" />
+    <att name="Musik" value="Gothic;Metalcore;Latin;" />
+    <att name="Raucher" value="ja" />
+    <att name="Interessen" value="Tanzen;Fussball;Fotografie;" />
+    <att name="Telefonnummer" value="_unknown_" />
+    <att name="Land" value="Deutschland" />
+    <att name="Beruf" value="Waldarbeiter" />
+    <att name="Einkommen" value="3600" />
+    <att name="Ort" value="Heinsen" />
+    <att name="EmailAdresse" value="stella.widmann@Choices" />
+    <att name="Religion" value="Christ" />
+    <att name="Strasse" value="Buchenhain " />
+    <att name="PersonenID" value="100001" />
+    <att name="PLZ" value="37649" />
+    <att name="AndereDrogen" value="nein" />
+    <att name="EmailProvider" value="Choices" />
+    <att name="Geschlecht" value="weiblich" />
+    <att name="Beziehungsstatus" value="beziehung" />
+    <att name="PolitischeEinstellung" value="gruen" />
+    <att name="TelefonVorwahl" value="_unknown_" />
+    <att name="Geburtsdatum" value="8.10.1953" />
+    <att name="Alkohol" value="ja" />
+    <att name="Vorname" value="Stella" />
+    <att name="Kinder" value="1" />
+  </instance>
+  <instance id="Personen1" >
+    <att name="Figur" value="mollig" />
+    <att name="SexuelleOrientierung" value="asexuell" />
+    <att name="Geburtsjahr" value="1922" />
+    <att name="Nachname" value="Buchta" />
+    <att name="Hausnummer" value="190" />
+    <att name="Musik" value="Pop Rock;House;Pop;" />
+    <att name="Raucher" value="ja" />
+    <att name="Interessen" value="telefonieren;Sauna;" />
+    <att name="Telefonnummer" value="_unknown_" />
+    <att name="Land" value="Deutschland" />
+    <att name="Beruf" value="Architekt" />
+    <att name="Einkommen" value="5000" />
+    <att name="Ort" value="Faid" />
+    <att name="EmailAdresse" value="buchta@dotcom.fr" />
+    <att name="Religion" value="Christ" />
+    <att name="Strasse" value="Buerbuschweg " />
+    <att name="PersonenID" value="100002" />
+    <att name="PLZ" value="56814" />
+    <att name="AndereDrogen" value="nein" />
+    <att name="EmailProvider" value="dotcom.fr" />
+    <att name="Geschlecht" value="maennlich" />
+    <att name="Beziehungsstatus" value="_unknown_" />
+    <att name="PolitischeEinstellung" value="unpolitisch" />
+    <att name="TelefonVorwahl" value="_unknown_" />
+    <att name="Geburtsdatum" value="26.8.1922" />
+    <att name="Alkohol" value="ja" />
+    <att name="Vorname" value="Diedrich" />
+    <att name="Kinder" value="0" />
+  </instance>
+  <instance id="Personen2" >
+    <att name="Figur" value="schlank" />
+    <att name="SexuelleOrientierung" value="heterosexuell" />
+    <att name="Geburtsjahr" value="1954" />
+    <att name="Nachname" value="Treu" />
+    <att name="Hausnummer" value="154" />
+    <att name="Musik" value="Rave;Soul;Experimental;" />
+    <att name="Raucher" value="ja" />
+    <att name="Interessen" value="Internet trollen;Amateurfunk;Geschichten schreiben;" />
+    <att name="Telefonnummer" value="_unknown_" />
+    <att name="Land" value="Deutschland" />
+    <att name="Beruf" value="Motorradmechaniker" />
+    <att name="Einkommen" value="2100" />
+    <att name="Ort" value="Oststeinbek" />
+    <att name="EmailAdresse" value="treu@inrehab.co.uk" />
+    <att name="Religion" value="Moslem" />
+    <att name="Strasse" value="Fronhofstr." />
+    <att name="PersonenID" value="100003" />
+    <att name="PLZ" value="22113" />
+    <att name="AndereDrogen" value="ja" />
+    <att name="EmailProvider" value="inrehab.co.uk" />
+    <att name="Geschlecht" value="weiblich" />
+    <att name="Beziehungsstatus" value="eingetr.partnerschaft" />
+    <att name="PolitischeEinstellung" value="rechts" />
+    <att name="TelefonVorwahl" value="_unknown_" />
+    <att name="Geburtsdatum" value="2.8.1954" />
+    <att name="Alkohol" value="nein" />
+    <att name="Vorname" value="Ulrike" />
+    <att name="Kinder" value="2" />
+  </instance>
+  <instance id="Personen3" >
+    <att name="Figur" value="duerr" />
+    <att name="SexuelleOrientierung" value="heterosexuell" />
+    <att name="Geburtsjahr" value="1980" />
+    <att name="Nachname" value="Graber" />
+    <att name="Hausnummer" value="111" />
+    <att name="Musik" value="Rap;Metal;Electronic;" />
+    <att name="Raucher" value="ja" />
+    <att name="Interessen" value="Briefmarken sammeln;Brieftauben zuechten;" />
+    <att name="Telefonnummer" value="_unknown_" />
+    <att name="Land" value="Deutschland" />
+    <att name="Beruf" value="Angestellter" />
+    <att name="Einkommen" value="3500" />
+    <att name="Ort" value="Mehring" />
+    <att name="EmailAdresse" value="heiner.graber@iloveportsmouth.com" />
+    <att name="Religion" value="Christ" />
+    <att name="Strasse" value="Friedrichstr." />
+    <att name="PersonenID" value="100004" />
+    <att name="PLZ" value="54346" />
+    <att name="AndereDrogen" value="ja" />
+    <att name="EmailProvider" value="iloveportsmouth.com" />
+    <att name="Geschlecht" value="maennlich" />
+    <att name="Beziehungsstatus" value="eingetr.partnerschaft" />
+    <att name="PolitischeEinstellung" value="Kommunist" />
+    <att name="TelefonVorwahl" value="_unknown_" />
+    <att name="Geburtsdatum" value="7.2.1980" />
+    <att name="Alkohol" value="ja" />
+    <att name="Vorname" value="Heiner" />
+    <att name="Kinder" value="1" />
+  </instance>
+  <instance id="Personen4" >
+    <att name="Figur" value="normal" />
+    <att name="SexuelleOrientierung" value="heterosexuell" />
+    <att name="Geburtsjahr" value="1953" />
+    <att name="Nachname" value="Stallmann" />
+    <att name="Hausnummer" value="181" />
+    <att name="Musik" value="Gothic;Chillout;" />
+    <att name="Raucher" value="nein" />
+    <att name="Interessen" value="singen;Pferde;" />
+    <att name="Telefonnummer" value="08146-4158954" />
+    <att name="Land" value="Deutschland" />
+    <att name="Beruf" value="Kantinenangestellte" />
+    <att name="Einkommen" value="3100" />
+    <att name="Ort" value="Moorenweis" />
+    <att name="EmailAdresse" value="stallmann@start.com.au" />
+    <att name="Religion" value="Christ" />
+    <att name="Strasse" value="Schanzenstr. " />
+    <att name="PersonenID" value="100005" />
+    <att name="PLZ" value="82272" />
+    <att name="AndereDrogen" value="nein" />
+    <att name="EmailProvider" value="start.com.au" />
+    <att name="Geschlecht" value="weiblich" />
+    <att name="Beziehungsstatus" value="eingetr.partnerschaft" />
+    <att name="PolitischeEinstellung" value="Kommunist" />
+    <att name="TelefonVorwahl" value="81460" />
+    <att name="Geburtsdatum" value="1.10.1953" />
+    <att name="Alkohol" value="ja" />
+    <att name="Vorname" value="Jill" />
+    <att name="Kinder" value="4" />
+  </instance>
+  <instance id="Personen5" >
+    <att name="Figur" value="dick" />
+    <att name="SexuelleOrientierung" value="asexuell" />
+    <att name="Geburtsjahr" value="1929" />
+    <att name="Nachname" value="Ulmer" />
+    <att name="Hausnummer" value="112" />
+    <att name="Musik" value="Screamo;Folk Rock;Opera;" />
+    <att name="Raucher" value="nein" />
+    <att name="Interessen" value="Spielkonsolen;Kino;" />
+    <att name="Telefonnummer" value="_unknown_" />
+    <att name="Land" value="Deutschland" />
+    <att name="Beruf" value="Edelsteinschleifer" />
+    <att name="Einkommen" value="6900" />
+    <att name="Ort" value="Wesseling" />
+    <att name="EmailAdresse" value="colin29@bigramp.com" />
+    <att name="Religion" value="Christ" />
+    <att name="Strasse" value="Ahlemer Str. " />
+    <att name="PersonenID" value="100006" />
+    <att name="PLZ" value="50389" />
+    <att name="AndereDrogen" value="nein" />
+    <att name="EmailProvider" value="bigramp.com" />
+    <att name="Geschlecht" value="maennlich" />
+    <att name="Beziehungsstatus" value="_unknown_" />
+    <att name="PolitischeEinstellung" value="konservativ" />
+    <att name="TelefonVorwahl" value="_unknown_" />
+    <att name="Geburtsdatum" value="7.1.1929" />
+    <att name="Alkohol" value="nein" />
+    <att name="Vorname" value="Colin" />
+    <att name="Kinder" value="2" />
+  </instance>
+  <instance id="Personen6" >
+    <att name="Figur" value="dick" />
+    <att name="SexuelleOrientierung" value="_unknown_" />
+    <att name="Geburtsjahr" value="1997" />
+    <att name="Nachname" value="Hieber" />
+    <att name="Hausnummer" value="77" />
+    <att name="Musik" value="Gothic;Classic;Electronic;" />
+    <att name="Raucher" value="nein" />
+    <att name="Interessen" value="Urban Exploration;Fotografie;" />
+    <att name="Telefonnummer" value="_unknown_" />
+    <att name="Land" value="Deutschland" />
+    <att name="Beruf" value="Schueler" />
+    <att name="Einkommen" value="_unknown_" />
+    <att name="Ort" value="Einhaus" />
+    <att name="EmailAdresse" value="hieber97@wowgirl.com" />
+    <att name="Religion" value="Christ" />
+    <att name="Strasse" value="Bussardweg " />
+    <att name="PersonenID" value="100007" />
+    <att name="PLZ" value="23911" />
+    <att name="AndereDrogen" value="nein" />
+    <att name="EmailProvider" value="wowgirl.com" />
+    <att name="Geschlecht" value="weiblich" />
+    <att name="Beziehungsstatus" value="_unknown_" />
+    <att name="PolitischeEinstellung" value="_unknown_" />
+    <att name="TelefonVorwahl" value="_unknown_" />
+    <att name="Geburtsdatum" value="1.10.1997" />
+    <att name="Alkohol" value="nein" />
+    <att name="Vorname" value="Selina" />
+    <att name="Kinder" value="0" />
+  </instance>
+  <instance id="Personen7" >
+    <att name="Figur" value="mollig" />
+    <att name="SexuelleOrientierung" value="heterosexuell" />
+    <att name="Geburtsjahr" value="1995" />
+    <att name="Nachname" value="Woehler" />
+    <att name="Hausnummer" value="102" />
+    <att name="Musik" value="Heavy Metal;Gothic;Folk;" />
+    <att name="Raucher" value="nein" />
+    <att name="Interessen" value="Kneipe;Sprache;" />
+    <att name="Telefonnummer" value="07585-6846584" />
+    <att name="Land" value="Deutschland" />
+    <att name="Beruf" value="Berechnungsingenieur" />
+    <att name="Einkommen" value="700" />
+    <att name="Ort" value="Ostrach" />
+    <att name="EmailAdresse" value="woehler@cloud.to" />
+    <att name="Religion" value="Christ" />
+    <att name="Strasse" value="Altenau" />
+    <att name="PersonenID" value="100008" />
+    <att name="PLZ" value="88356" />
+    <att name="AndereDrogen" value="ja" />
+    <att name="EmailProvider" value="cloud.to" />
+    <att name="Geschlecht" value="weiblich" />
+    <att name="Beziehungsstatus" value="ledig" />
+    <att name="PolitischeEinstellung" value="Kommunist" />
+    <att name="TelefonVorwahl" value="75850" />
+    <att name="Geburtsdatum" value="9.6.1995" />
+    <att name="Alkohol" value="ja" />
+    <att name="Vorname" value="Kathleen" />
+    <att name="Kinder" value="0" />
+  </instance>
+  <instance id="Personen8" >
+    <att name="Figur" value="schlank" />
+    <att name="SexuelleOrientierung" value="heterosexuell" />
+    <att name="Geburtsjahr" value="1929" />
+    <att name="Nachname" value="Fliegauf" />
+    <att name="Hausnummer" value="34" />
+    <att name="Musik" value="Hiphop;Indie;" />
+    <att name="Raucher" value="nein" />
+    <att name="Interessen" value="Kekse backen;Philosophie;Darts;" />
+    <att name="Telefonnummer" value="039221-9741869" />
+    <att name="Land" value="Deutschland" />
+    <att name="Beruf" value="Hotelangestellter" />
+    <att name="Einkommen" value="5000" />
+    <att name="Ort" value="Magdeburg" />
+    <att name="EmailAdresse" value="albert.fliegauf@212.com" />
+    <att name="Religion" value="Christ" />
+    <att name="Strasse" value="Albert-Schweitzer-Str. " />
+    <att name="PersonenID" value="100009" />
+    <att name="PLZ" value="39120" />
+    <att name="AndereDrogen" value="nein" />
+    <att name="EmailProvider" value="212.com" />
+    <att name="Geschlecht" value="maennlich" />
+    <att name="Beziehungsstatus" value="_unknown_" />
+    <att name="PolitischeEinstellung" value="gruen" />
+    <att name="TelefonVorwahl" value="39221" />
+    <att name="Geburtsdatum" value="11.9.1929" />
+    <att name="Alkohol" value="nein" />
+    <att name="Vorname" value="Albert" />
+    <att name="Kinder" value="0" />
+  </instance>
+  <instance id="Personen9" >
+    <att name="Figur" value="duerr" />
+    <att name="SexuelleOrientierung" value="heterosexuell" />
+    <att name="Geburtsjahr" value="1980" />
+    <att name="Nachname" value="Decker" />
+    <att name="Hausnummer" value="34" />
+    <att name="Musik" value="Power Metal;Emo;Metalcore;" />
+    <att name="Raucher" value="ja" />
+    <att name="Interessen" value="bloggen;Pferde;" />
+    <att name="Telefonnummer" value="_unknown_" />
+    <att name="Land" value="Deutschland" />
+    <att name="Beruf" value="Parkettleger" />
+    <att name="Einkommen" value="3000" />
+    <att name="Ort" value="Ennepetal" />
+    <att name="EmailAdresse" value="conrad.decker@handleit.com" />
+    <att name="Religion" value="Christ" />
+    <att name="Strasse" value="Goldbekweg " />
+    <att name="PersonenID" value="100010" />
+    <att name="PLZ" value="58256" />
+    <att name="AndereDrogen" value="nein" />
+    <att name="EmailProvider" value="handleit.com" />
+    <att name="Geschlecht" value="maennlich" />
+    <att name="Beziehungsstatus" value="verheiratet" />
+    <att name="PolitischeEinstellung" value="gruen" />
+    <att name="TelefonVorwahl" value="_unknown_" />
+    <att name="Geburtsdatum" value="6.5.1980" />
+    <att name="Alkohol" value="nein" />
+    <att name="Vorname" value="Conrad" />
+    <att name="Kinder" value="6" />
+  </instance>
+</instances>
+<cb name="Personen">
+     <case name="Personen0" />
+     <case name="Personen1" />
+     <case name="Personen2" />
+     <case name="Personen3" />
+     <case name="Personen4" />
+     <case name="Personen5" />
+     <case name="Personen6" />
+     <case name="Personen7" />
+     <case name="Personen8" />
+     <case name="Personen9" />
+</cb>
+</Project>

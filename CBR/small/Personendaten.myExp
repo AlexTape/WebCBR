@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Project name="Personendaten" author="" >
+<exp obj="Personen" type="Concept" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="Beruf" c="Personen" type="AttributeDesc" >
+  <desc>
+&#10;                                </desc>
+</exp>
+<exp obj="Hausnummer" c="Personen" type="AttributeDesc" >
+  <desc>
+&#10;                                        </desc>
+</exp>
+<exp obj="Musik" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="Strasse" c="Personen" type="AttributeDesc" >
+  <desc>
+&#10;                                </desc>
+</exp>
+<exp obj="PLZ" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="Interessen" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="PolitischeEinstellung" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="Ort" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="Religion" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="Einkommen" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="Vorname" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="Raucher" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="Nachname" c="Personen" type="AttributeDesc" >
+  <desc>
+&#10;                                </desc>
+</exp>
+<exp obj="TelefonVorwahl" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="Geschlecht" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="Beziehungsstatus" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="AndereDrogen" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="Telefonnummer" c="Personen" type="AttributeDesc" >
+  <desc>
+&#10;                                </desc>
+</exp>
+<exp obj="PersonenID" c="Personen" type="AttributeDesc" >
+  <desc>
+&#10;                                </desc>
+</exp>
+<exp obj="Kinder" c="Personen" type="AttributeDesc" >
+  <desc>
+&#10;                    </desc>
+</exp>
+<exp obj="Alkohol" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="Geburtsjahr" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="Geburtsdatum" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="Land" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="Figur" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="SexuelleOrientierung" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="EmailAdresse" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="EmailProvider" c="Personen" type="AttributeDesc" >
+  <desc>
+                                          </desc>
+</exp>
+<exp obj="ja" c="Personen" desc="Alkohol" type="SimpleAttribute" >
+  <desc>
+&#10;                                        </desc>
+</exp>
+<exp obj="ja" c="Personen" desc="AndereDrogen" type="SimpleAttribute" >
+  <desc>
+&#10;                                        </desc>
+</exp>
+<exp obj="Personen0" c="Personen" type="Instance" >
+  <desc>
+  </desc>
+</exp>
+</Project>

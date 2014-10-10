@@ -1,0 +1,46 @@
+/* ==========================================================================
+   custom styles
+   ========================================================================== */
+body.index-body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+}
+
+.dataTables_wrapper {
+	padding: 15px;
+}
+
+div.row label, div.row input, div.row select {
+	width: 49%;
+	height: 32px;
+}
+
+div.row {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+.actionBtns {
+	padding-top: 15px;
+	text-align: center;
+}
+
+.actionsBtns:after {
+	float: clear;
+}
+
+.rightBtn {
+	float: right;
+}
+
+.leftBtn {
+	float: left;
+}
+
+.jumbotron {
+	padding: 0px !important;
+}
+
+.jumbotron .container {
+	max-width: 49%;
+}
